@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Saira', sans-serif;
+}
+
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#titulo, #calc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#texto {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contexto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contexto img {
+    width: 100%;
+    height: 300px;
+}
+
+#barra {
+    background-color: #2e8b57;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario input {
+    width: 200px;
+    border: 1px solid #2e8b57;
+    border-radius: 20px;
+    height: 40px;
+}
+
+#btn {
+    background-color: #2e8b57;
+    border: none;
+    color: #fff;
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+#resultado {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    background-color: #2e8b57;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #332d2d;
+}
